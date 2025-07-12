@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Cabeçalho */
+
+header{
+    width: auto;
+    background-color: #212529;
+}
+#all-header{
+    width: 1250px;
+    margin: auto;
+    color: #E9ECEF;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header-logo h1{
+    font-family: "Montserrat", sans-serif;
+}
+nav{
+    width: 300px;
+}
+
+#header-nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-itens{
+    color:#E9ECEF;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+}
+
+/* Cabeçalho */
+
+/* Conteúdo */
+
+main{
+    background-color: #E9ECEF;
+    font-family: "Lato", sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex: 1;
+}
+
+#all-projetos{
+    width: 1250px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projetos{
+    display: flex;
+    border: 1px solid;
+    width: 900px;
+    height: 200px;
+    margin-top: 20px;
+}
+.img-poj{
+    height: 200px;
+    width: 200px;
+    border-radius: 2px;
+    overflow: hidden;
+}
+.text-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    margin-left: 20px;
+}
+
+.title{
+    margin-bottom: 10px;
+}
+
+.descricao{
+    text-indent: 2em;
+}
+
+/* Conteúdo */
+
+/* Rodapé */
+
+footer{
+    background-color: #212529;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#all-footer{
+    
+    width: 1250px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#footer-text{
+    color: #E9ECEF;
+    width: 600px;
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+}
+
+#footer-social{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-itens{
+    color: #E9ECEF;
+    text-decoration: none;
+}
+
+
+/*@media (min-width: 1366px) {
+  footer {
+    height: 150px;
+  }
+   #all-footer {
+    margin: auto;
+  }
+}
+
+@media (min-width: 1450px) {
+  footer {
+    height: 200px;
+  }
+   #all-footer {
+    margin: auto;
+  }
+}
+
+@media (min-width: 1500px) {
+  footer {
+    height: 300px;
+  }
+   #all-footer {
+    margin: auto;
+  }
+}
+
+@media (min-width: 1600px) {
+  footer {
+    height: 700px;
+  }
+
+  #all-footer {
+    margin: auto;
+  }
+}*/
+/* Rodapé */
