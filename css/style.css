@@ -3,8 +3,10 @@
     padding: 0;
 }
 
-html body{
-    height: 100%;
+html, body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Cabeçalho */
@@ -48,8 +50,9 @@ nav{
 main{
     background-color: #E9ECEF;
     font-family: "Lato", sans-serif;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    flex: 1;
 }
 
 #all-main{
@@ -89,12 +92,14 @@ main{
 
 footer{
     background-color: #212529;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #all-footer{
     
     width: 1250px;
+    margin: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -119,7 +124,7 @@ footer{
     text-decoration: none;
 }
 
-
+/*
 @media (min-width: 1366px) {
   footer {
     height: 150px;
@@ -155,5 +160,5 @@ footer{
   #all-footer {
     margin: auto;
   }
-}
+}*/
 /*Rodapé*/
